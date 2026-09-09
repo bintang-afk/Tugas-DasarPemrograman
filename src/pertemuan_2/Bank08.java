@@ -17,5 +17,6 @@ public class Bank08 {
         jml_tabungan_akhir = bunga+jml_tabungan_awal;
         System.out.println ("Bunga adalah " +bunga);
         System.out.println ("Jumlah tabungan akhir anda adalah " +jml_tabungan_akhir);
+        
     }
 }
