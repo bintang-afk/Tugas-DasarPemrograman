@@ -7,7 +7,7 @@ public class MencetakDokumen {
         int biayaPerLembar = 500;
         int biayaJilid = 5000;
         int biayaCetak;
-        int totalBiaya;
+        double totalBiaya;
 
         System.out.print("Masukkan jumlah lembar dokumen : ");
         jmlLembar = bintang.nextInt();
