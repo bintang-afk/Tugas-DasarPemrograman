@@ -12,6 +12,7 @@ public class TokoRoti08 {
     double bagianPegawai;
     double sisaKas ;
     
+    
     System.out.print("Masukkan jumlah terjual : ");
     jumlahTerjual = input.nextInt();
 
