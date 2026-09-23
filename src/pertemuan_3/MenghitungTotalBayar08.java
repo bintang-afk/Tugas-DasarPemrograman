@@ -14,5 +14,7 @@ public class MenghitungTotalBayar08 {
         jml_bayar = harga - potongan;
         System.out.println("Jumalah yang harus anda bayar adalah Rp. "+jml_bayar);
 
+        sc.close();
+
     }
 }

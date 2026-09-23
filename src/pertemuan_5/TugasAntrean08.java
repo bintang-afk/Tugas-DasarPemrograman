@@ -26,6 +26,11 @@ public class TugasAntrean08 {
             default:
                 System.out.println("Kode tidak valid");
                 break;
+
+        
         }
+    
+    sc.close();
     }
+
 }

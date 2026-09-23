@@ -16,5 +16,7 @@ public class MencetakDokumen {
         totalBiaya = biayaCetak + biayaJilid;
 
         System.out.println("Maka total biaya yang harus anda bayar adalah "+totalBiaya);
+
+        bintang.close();
     }
 }

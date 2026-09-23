@@ -14,5 +14,7 @@ public class Tugas1Pemilihan08 {
 
         System.out.println(pesan);
         
+
+        sc.close();
     }
 }

@@ -25,5 +25,7 @@ public class CicilanLaptop {
         cicilanPerBulan = pokokCicilan + bungaPerBulan;
 
         System.out.printf("Maka cicilan yang harus kamu bayar adalah %.2f per bulan",cicilanPerBulan);
+
+        bintang.close();
     }
 }

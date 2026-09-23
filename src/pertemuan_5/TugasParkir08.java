@@ -18,7 +18,7 @@ public class TugasParkir08 {
         }
     
         System.out.printf("Biaya parkir anda adalah : %d", tarif);
-
+        sc.close();
     }
 
 }

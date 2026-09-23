@@ -24,6 +24,9 @@ public class wow {
 
     System.out.println(nominalBunga);
     System.out.println(hasilFormat);
-    }
+    
+input.close();
+
+}
 }
 

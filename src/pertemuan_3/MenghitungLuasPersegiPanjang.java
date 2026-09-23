@@ -14,5 +14,7 @@ public class MenghitungLuasPersegiPanjang {
 
         luas = panjang*lebar;
         System.out.println("Luas persegi panjang " +luas);
+
+        sc.close();
     }
 }

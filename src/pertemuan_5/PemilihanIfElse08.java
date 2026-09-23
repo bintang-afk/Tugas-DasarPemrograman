@@ -27,6 +27,8 @@ public class PemilihanIfElse08 {
             System.out.println("KRS Semester 8 ditampilkan");
         } else {
             System.out.println("Semester tidak valid");
+
+            sc.close();
         }
     }
 }

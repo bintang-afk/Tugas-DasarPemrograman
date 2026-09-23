@@ -36,6 +36,8 @@ public class PemilihanSwitch08 {
             break;
         default:
             System.out.println("Semester tidak valid");
+
+            sc.close();
         }
     }
 }

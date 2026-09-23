@@ -25,5 +25,7 @@ public class PakTonoModif {
 
         double luasTanahKosong = totalLuasTanah - (totalLuasKolam + totalLuasTaman);
         System.out.printf("Luas tanah kosong milik anda adalah %.2f meter",luasTanahKosong);
+
+        input.close();
     }
 }

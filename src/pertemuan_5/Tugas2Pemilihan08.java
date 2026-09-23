@@ -14,6 +14,6 @@ public class Tugas2Pemilihan08 {
         } else {
             System.out.println("KRS valid");
         }
-    
+    sc.close();
     }
 }

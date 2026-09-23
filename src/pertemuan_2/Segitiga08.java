@@ -16,6 +16,7 @@ public class Segitiga08 {
     float luas = alas * tinggi / 2 ;
 
     System.out.println("Luas segitiga: "+ luas);
+    sc.close();
 
     }    
 }
