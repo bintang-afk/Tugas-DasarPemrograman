@@ -35,8 +35,8 @@ Repository ini berisi kumpulan **tugas mata kuliah Dasar Pemrograman** menggunak
 
 |            |                          |
 | ---------- | ------------------------ |
-| **Nama**   | GANTI dengan nama kamu   |
-| **NIM**    | GANTI dengan NIM kamu    |
+| **Nama**   | Fahri Bintang Tofani     |
+| **NIM**    | 264107020058             |
 | **Kelas**  | GANTI dengan kelas kamu  |
 | **Dosen**  | GANTI dengan nama dosen  |
 | **Kampus** | GANTI dengan nama kampus |
