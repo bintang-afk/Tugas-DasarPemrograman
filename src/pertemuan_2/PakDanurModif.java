@@ -21,5 +21,7 @@ public class PakDanurModif {
 
         
         System.out.printf("gaji bersih yang anda dapat adalah = %.2f",gajiBersih);
+    
+        input.close();
     }
 }
