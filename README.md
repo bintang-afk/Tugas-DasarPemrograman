@@ -45,15 +45,15 @@ Repository ini berisi kumpulan **tugas mata kuliah Dasar Pemrograman** menggunak
 
 ## 📚 Daftar Tugas
 
-| No  | pertemuan            | Deskripsi                         |                        Folder                        |
-| :-: | -------------------- | --------------------------------- | :--------------------------------------------------: |
-|  1  | Pengenalan Java      | Hello World & struktur program    | [📁 Lihat](D:\PrakDaspro\ProjekJava\src\pertemuan_1) |
-|  2  | Variabel & Tipe Data | Deklarasi dan penggunaan variabel |                [📁 Lihat](./Tugas02)                 |
-|  3  | Operator             | Aritmatika, relasional, logika    |                [📁 Lihat](./Tugas03)                 |
-|  4  | Percabangan          | if, else, switch                  |                [📁 Lihat](./Tugas04)                 |
-|  5  | Perulangan           | for, while, do-while              |                [📁 Lihat](./Tugas05)                 |
-|  6  | Array                | Array satu & dua dimensi          |                [📁 Lihat](./Tugas06)                 |
-|  7  | Method               | Fungsi dan parameter              |                [📁 Lihat](./Tugas07)                 |
+| No  | pertemuan            | Deskripsi                         |            Folder             |
+| :-: | -------------------- | --------------------------------- | :---------------------------: |
+|  1  | Pengenalan Java      | Hello World & struktur program    | [📁 Lihat](./src/pertemuan_1) |
+|  2  | Variabel & Tipe Data | Deklarasi dan penggunaan variabel |     [📁 Lihat](./Tugas02)     |
+|  3  | Operator             | Aritmatika, relasional, logika    |     [📁 Lihat](./Tugas03)     |
+|  4  | Percabangan          | if, else, switch                  |     [📁 Lihat](./Tugas04)     |
+|  5  | Perulangan           | for, while, do-while              |     [📁 Lihat](./Tugas05)     |
+|  6  | Array                | Array satu & dua dimensi          |     [📁 Lihat](./Tugas06)     |
+|  7  | Method               | Fungsi dan parameter              |     [📁 Lihat](./Tugas07)     |
 
 > 📝 _Sesuaikan tabel di atas dengan tugas yang ada di repo kamu._
 
