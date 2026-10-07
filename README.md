@@ -124,12 +124,13 @@ Halo Dunia! ☕
 
 ```
 📦 NAMA-REPO
- ┣ 📂 Tugas01
- ┃ ┗ 📜 HelloWorld.java
- ┣ 📂 Tugas02
- ┃ ┗ 📜 variablex.java
- ┣ 📂 jobsheet
- ┃ ┗ 📜 bintangxx.java
+ ┣ 📂 src
+ ┃ ┣ 📂 pertemuan_1
+ ┃ ┣ 📂 pertemuan_2
+ ┃ ┣ 📂 pertemuan_3
+ ┃ ┣ 📂 pertemuan_5
+ ┃ ┣ 📂 pertemuan_6
+ ┃ ┗ 📂 quiz
  ┗ 📜 README.md
 ```
 
