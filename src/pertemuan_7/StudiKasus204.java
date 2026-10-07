@@ -14,8 +14,7 @@ public class StudiKasus204 {
         int jumlahDokumen = input.nextInt();
         System.out.print("Peringkat juara : ");
         int peringkatJuara = input.nextInt();
-        System.out.print("Status pendanaan PKM (1/0) : ");
-        int statusPKM = input.nextInt();
+
 
         int dokumenKurang = 4 - jumlahDokumen;
 
@@ -33,6 +32,8 @@ public class StudiKasus204 {
             }
         } else if (jenisKegiatan.equalsIgnoreCase("PKM")) {
             if (jumlahDokumen == 4) {
+                    System.out.print("Status pendanaan PKM (1/0) : ");
+                    int statusPKM = input.nextInt();
                 if (statusPKM == 1) {
                     System.out.println("Status : Dokumen lengkap dan lolos pendanaan PKM. Dana penghargaan diberikan.");
                 } else {
