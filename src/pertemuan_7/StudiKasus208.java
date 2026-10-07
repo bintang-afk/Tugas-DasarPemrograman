@@ -34,9 +34,15 @@ public class StudiKasus208 {
             }
                 
         } else if (jeniskegiatan.equalsIgnoreCase("PKM")) {
-
+                System.out.print("Status pendanaan PKM : ");
+                statusPendanaanPKM = input.nextInt();
+            if (statusPendanaanPKM  == 1 ) {
+                System.out.println("Dana penghargaan diberikan");
+            } else {
+                System.out.println("dana pendanaan tidak diberikan");
+            }
         } else {
-
+            System.out.println("Anda tidak dapat dana pengharagaan");
         }
         input.close();
     }
