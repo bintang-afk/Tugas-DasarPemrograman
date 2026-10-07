@@ -122,8 +122,8 @@ Halo Dunia! ☕
 ## 📂 Struktur Folder
 
 ```
-📦 NAMA-REPO
- ┣ 📂 Tugas01
+📦 Tugas-DasarPemrograman
+ ┣ 📂 Pertemuan_1
  ┃ ┗ 📜 HelloWorld.java
  ┣ 📂 Tugas02
  ┃ ┗ 📜 Variabel.java
