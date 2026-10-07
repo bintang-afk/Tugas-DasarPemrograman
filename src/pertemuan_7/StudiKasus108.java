@@ -1,16 +1,11 @@
 package pertemuan_7;
-// • hargaPerCup = 15000 + (P mod 6) × 1000 → 17000
-// • Syarat minimal belanja untuk diskon = 80000 + (P mod 5) × 10000 → 110000
-// flowchart
-// • Persentase diskon = 5 + (P mod 6) % → 7
-// Struktur logika (urutan langkah pada flowchart) tetap sama, hanya ketiga angka di atas yang diganti
-// sesuai P Anda.
+
 import java.util.Scanner;
 
 public class StudiKasus108 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int hargaPerCup = 18000 ;
+        int hargaPerCup = 17000 ;
         int jumlahCup, uangBayar ;
         int totalHarga, diskon, totalBayar ;
         int kembalian = 0;
@@ -23,8 +18,8 @@ public class StudiKasus108 {
         totalHarga =jumlahCup * hargaPerCup ;
         diskon = 0;
 
-        if (totalHarga >= 100000) {
-            diskon = totalHarga * 10/100;
+        if (totalHarga >= 110000) {
+            diskon = totalHarga * 7/100;
         }
 
         totalBayar = totalHarga - diskon;
