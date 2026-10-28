@@ -62,10 +62,10 @@ public class PengelolaBioskop {
             System.out.println("Jumlah tiket                              : "+jmlTiket);
             System.out.println("total bayar anda                          : "+totalBayar);
             System.out.println("pembeli mendapatakan diskon sebesar       : "+(diskon*100)+"%");
-            System.out.println("akumulasi jumlah tiket harian adalah      : "+totalTiket);
-            System.out.println("total pendapatan hari ini                 : "+totalPendapatanHariINi);
-
+            
         } while (true);        
         input.close();
+        System.out.println("akumulasi jumlah tiket harian adalah      : "+totalTiket);
+        System.out.println("total pendapatan hari ini                 : "+totalPendapatanHariINi);
     }
 }
