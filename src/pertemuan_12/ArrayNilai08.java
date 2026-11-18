@@ -16,8 +16,9 @@ public class ArrayNilai08 {
 
         for (int i = 0; i < nilaiAkhir.length; i++) {
             String status = (nilaiAkhir[i] > 70) ? "LULUS" : "TIDAK LULUS";
-            System.out.println("Mahasiswa ke-" + (i + 1) + ": " + nilaiAkhir[i] + " (" +
-            status + ")");
+            if (status.equalsIgnoreCase("LULUS")) {
+                System.out.println("Nilai mahasiswa ke : "+(i+1)+" dengan nilai : "+nilaiAkhir[i]);
+            }
         }
 
         input.close();
