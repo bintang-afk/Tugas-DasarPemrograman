@@ -26,15 +26,14 @@ public class ArrayRataNilai08 {
             if (nilaiMhs[i] > tertinggi) tertinggi = nilaiMhs[i];
             if (nilaiMhs[i] < terendah) terendah = nilaiMhs[i];
         }
-        for (int i = 0; i < nilaiMhs.length; i++) {
-            if (nilaiMhs[i] >= 85) {
-                System.out.println("nilai mahasiswa ke-" +(i+1)+ " adalah "+nilaiMhs[i]+" memiliki predikat SANGAT BAIK");
-            }else if (nilaiMhs[i] >= 70) {
-                System.out.println("nilai mahasiswa ke-" +(i+1)+ " adalah "+nilaiMhs[i]+" memiliki predikat BAIK");
+            if (rata2 >= 85) {
+                System.out.println("Predikat Kelas : SANGAT BAIK");
+            }else if (rata2 >= 70) {
+                System.out.println("Predikat Kelas : BAIK");
             }else{
-                System.out.println("nilai mahasiswa ke-" +(i+1)+ " adalah "+nilaiMhs[i]+" memiliki predikat PERLU PENDAMPINGAN");
+                System.out.println("Predikat Kelas : PENDAMPINGAN");
             }
-        }
+        
 
         System.out.println("Nilai tertinggi: " + tertinggi);
         System.out.println("Nilai terendah: " + terendah);
