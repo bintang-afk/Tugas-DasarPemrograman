@@ -1,11 +1,15 @@
 package pertemuan_13;
-
 import java.util.Scanner;
 
 public class SIAKAD {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);        
-        int[][] nilai = new int[4][3];
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Masukkan berapa mahasiswa yang ingin anda masukkan nilainya : ");
+        int banyakMhs = sc.nextInt();
+        System.out.print("Masukkan berapa matkul yang ingin anda masukkan : ");
+        int banyakMatkul = sc.nextInt();
+
+        int[][] nilai = new int[banyakMhs][banyakMatkul];
 
         for (int i = 0; i < nilai.length; i++) {
             System.out.println("Input nilai mahasiswa ke-"+(i+1));
@@ -16,7 +20,6 @@ public class SIAKAD {
                 nilai[i][j] = sc.nextInt();
                 totalPerSiswa += nilai[i][j];
             }
-
             System.out.println("Nilai rata-rata: "+totalPerSiswa/nilai[i].length);
         }
         System.out.println("\n========================================");
